@@ -1,0 +1,132 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #d3f0ea;
+    color: #776e65;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px; }
+  
+header{
+    position: fixed;
+    background-color: #dd6db2;
+    top: 0%; 
+    left: 0%;
+    right: 0%;
+    display: flex;
+    flex-direction: row; }
+
+footer{
+    position:fixed;
+    background-color: #88466f;
+    bottom: 0%; 
+    left: 0%;
+    right: 0%;
+    height: 50px;;
+    display: flex;
+    flex-direction: row; }
+
+footer p{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;}
+
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color: white;
+    text-align: center; }
+
+.best-score {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto; }
+
+h3 {
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    text-align: center; }
+    
+.best-score p{
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    text-align: center; }
+
+.new-game {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+
+.grid-container {
+    position: absolute;
+    z-index: 1; }
+  
+.grid-row {
+    margin-bottom: 15px; }
+
+.grid-row:last-child {
+    margin-bottom: 0; }
+
+.grid-row:after {
+    content: "";
+    display: block;
+    clear: both; }
+  
+.grid-cell {
+    width: 106.25px;
+    height: 106.25px;
+    margin-right: 15px;
+    float: left;
+    border-radius: 3px;
+    background: rgba(236, 222, 142, 0.35); }
+
+.grid-cell span{
+    display: block;
+    margin-top: 25px;
+    font-size: 50px;
+    color:white;
+    text-align: center;
+    
+}
+
+.grid-cell:last-child {
+    margin-right: 0; }
+
+.game-container {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding: 15px;
+    cursor: default;
+    touch-action: none;
+    background: #ada399;
+    border-radius: 6px;
+    width: 500px;
+    height: 500px;
+    box-sizing: border-box; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
